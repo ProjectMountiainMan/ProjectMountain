@@ -1,4 +1,4 @@
-
+//The power of the fusion dance
 var ItemPackageControl = {
 	getItemSelectionObject: function(item) {
 		var obj;
