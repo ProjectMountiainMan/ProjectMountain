@@ -1,4 +1,6 @@
 
+//MAXES COMMENT IS HERE
+
 var ItemPackageControl = {
 	getItemSelectionObject: function(item) {
 		var obj;
