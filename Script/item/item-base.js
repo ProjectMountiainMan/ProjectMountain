@@ -9,6 +9,7 @@
 // third comment
 var ItemPackageControl = {
 	getItemSelectionObject: function(item) {
+		var useless;
 		var obj;
 		var type = item.getItemType();
 		var arr = [
