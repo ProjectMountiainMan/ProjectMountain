@@ -9,7 +9,11 @@
 // third comment
 var ItemPackageControl = {
 	getItemSelectionObject: function(item) {
+<<<<<<< HEAD
 		var useless;
+=======
+		var max; 
+>>>>>>> 2d9962027db8765b362de01cc13ec0d045d94199
 		var obj;
 		var type = item.getItemType();
 		var arr = [
