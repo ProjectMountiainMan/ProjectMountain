@@ -23,6 +23,8 @@ var PlayerTurn = defineObject(BaseTurn,
 	_mapCommandManager: null,
 	_eventChecker: null,
 	
+	_customMaxVariable: 0,
+	
 	// It's called if the turn is switched.
 	openTurnCycle: function() {
 		this._prepareTurnMemberData();
