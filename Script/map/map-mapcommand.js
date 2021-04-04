@@ -1,4 +1,4 @@
-
+//pp
 var MapCommand = defineObject(BaseListCommandManager,
 {
 	getPositionX: function() {

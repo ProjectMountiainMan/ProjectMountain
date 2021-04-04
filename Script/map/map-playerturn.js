@@ -507,6 +507,10 @@ var MapSequenceArea = defineObject(BaseObject,
 		this.changeCycleMode(MapSequenceAreaMode.AREA);
 	},
 	
+
+	/* MKR 4/3/21 
+	* This function has to do with moving units. I have disabled moving by commenitng out isMove = True
+	*/
 	_moveArea: function() {
 		var unit;
 		var isMove = false;
@@ -516,7 +520,7 @@ var MapSequenceArea = defineObject(BaseObject,
 		if (InputControl.isSelectAction()) {
 			// Check if it's fine whether the _targetUnit moves.
 			if (this._isTargetMovable()) {
-				isMove = true;
+	//			isMove = true;
 			}
 			else {
 				isCancel = true;
