@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 //The power of the fusion dance
-=======
 
 //MAXES COMMENT IS HERE
 
->>>>>>> dd7e913009aa582a7caf024fc1eb1f8f371dcfae
 
 // third comment
 var ItemPackageControl = {

@@ -23,6 +23,8 @@ var PlayerTurn = defineObject(BaseTurn,
 	_mapCommandManager: null,
 	_eventChecker: null,
 	
+	_customMaxVariable: 0,
+	
 	// It's called if the turn is switched.
 	openTurnCycle: function() {
 		this._prepareTurnMemberData();
@@ -505,6 +507,10 @@ var MapSequenceArea = defineObject(BaseObject,
 		this.changeCycleMode(MapSequenceAreaMode.AREA);
 	},
 	
+
+	/* MKR 4/5/21 
+	* This function has to do with moving units. I can disable moving by commenitng out isMove = True
+	*/
 	_moveArea: function() {
 		var unit;
 		var isMove = false;
@@ -514,6 +520,7 @@ var MapSequenceArea = defineObject(BaseObject,
 		if (InputControl.isSelectAction()) {
 			// Check if it's fine whether the _targetUnit moves.
 			if (this._isTargetMovable()) {
+				//TODO: ADD MOVE DISABLING LOGIC HERE
 				isMove = true;
 			}
 			else {

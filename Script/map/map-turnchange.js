@@ -1,4 +1,4 @@
-
+// other pp 
 var TurnChangeStartMode = {
 	TOP: 0,
 	EVENT: 1
